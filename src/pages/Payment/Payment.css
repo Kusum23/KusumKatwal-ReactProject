@@ -1,0 +1,43 @@
+.payment {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.payment form {
+  width: 40%;
+}
+
+.payment form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.payment-summary {
+  width: 40%;
+}
+
+.payment-summary h2 {
+  margin-bottom: 20px;
+}
+
+.payment-summary .cart-total-details {
+  display: flex;
+  justify-content: space-between;
+  color: #555;
+}
+
+.payment-summary hr {
+  margin: 10px 0px;
+}
+
+.payment-summary button {
+  margin-top: 30px;
+  padding: 12px 20px;
+  background-color: olivedrab;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
